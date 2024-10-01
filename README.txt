@@ -59,6 +59,20 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 (or jpg, jpeg, gif).
 2. This is the second screen shot
 
+## Dummy Data for Testing
+
+To make testing easier, we have provided a dummy data XML file. You can find it in the `sample-data` folder:
+
+- [Download dummy-data.xml](sample-data/dummy-data.xml)
+
+### How to Import Dummy Data:
+1. Go to **Tools > Import** in your WordPress admin dashboard.
+2. Select **WordPress** from the list of importers (if you haven't installed the WordPress importer, you’ll be prompted to do so).
+3. Upload the `dummy-data.xml` file and assign it to the appropriate user.
+4. Click **Submit** to import the sample data.
+
+This will populate your WordPress installation with some sample data (Post data for Custom Post type 'Profile') to help with plugin testing.
+
 == Changelog ==
 
 = 1.0 =
