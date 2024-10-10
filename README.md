@@ -37,8 +37,6 @@ After activating the plugin, you can begin adding candidate profiles:
 2. Click on **Add New** to create a new candidate profile.
 3. Fill in the candidate's details as required.
 4. To display the profile listing on a page or post, use the shortcode:
-   
-plaintext
    [profile_listing]
 
 ## Dummy Data for Testing
